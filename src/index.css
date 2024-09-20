@@ -1,0 +1,155 @@
+/* General Layout */
+.kanban-board {
+  display: flex;
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  font-weight: 100;
+}
+
+.kanban-column {
+  width: 30%;
+  padding: 10px;
+  border-radius: 4px;
+  height: fit-content;
+}
+
+/* Kanban Card Styling */
+.kanban-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.kanban-card h4,
+.kanban-card p {
+  margin: 5px 0;
+}
+
+.kanban-card img {
+  margin-right: 8px;
+}
+
+/* Ticket Header */
+.ticket-header {
+  display: flex;
+  align-items: center;
+}
+
+.status-icon {
+  margin-right: 8px;
+}
+
+/* Ticket Information */
+.ticket-info {
+  display: flex;
+  align-items: center;
+}
+
+.priority-icon {
+  margin-right: 8px;
+}
+
+.ticket-info p {
+  margin-left: 5px;
+}
+
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+/* Filter Dropdown */
+.filter-dropdown {
+  padding: 10px;
+}
+
+/* Button Styling */
+button {
+  display: flex;
+  align-items: center;
+}
+
+/* Text and Heading Styling */
+h5 {
+  color: gray;
+  font-size: 1rem;
+  font-weight: 100;
+}
+h3{
+  font-weight: 200;
+}
+
+p {
+  border-radius: 5px;
+  border: 0.5px solid #ddd;
+  padding: 5px;
+}
+
+.priority-icon {
+  border-radius: 5px;
+  border: 0.5px solid #ddd;
+  padding: 5px;
+}
+h4{
+  font-weight: 150;
+}
+/* Icon Size */
+.ticket-info img,
+.ticket-header img {
+  width: 20px;
+  height: 20px;
+  font-weight: 200;
+}
+.filter-dropdown {
+  position: fixed; 
+  top: 30px; 
+  left: 10px;
+  background-color: white; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  width: 200px;
+}
+
+.filter-dropdown select {
+  width: 100%; 
+  margin-top: 10px;
+}
+
+.filter-dropdown label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+.kanban-column-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.ticket-count {
+  margin-right: 10px; 
+  color: gray;
+}
+
+.group-icons {
+  display: flex;
+  align-items: center;
+}
+
+.add-icon,
+.more-options-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
